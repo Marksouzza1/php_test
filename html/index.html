@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Registro</title>
+</head>
+<body>
+    <h2>Atualizar Registro</h2>
+    <form action="/update.php" method="POST">
+        <label for="id">ID do Registro:</label><br>
+        <input type="text" id="id" name="id" required><br>
+        
+        <label for="produto">Produto:</label><br>
+        <input type="text" id="produto" name="produto" required><br>
+        
+        <label for="cor">Cor:</label><br>
+        <input type="text" id="cor" name="cor" required><br>
+        
+        <label for="tamanho">Tamanho:</label><br>
+        <input type="text" id="tamanho" name="tamanho" required><br>
+        
+        <label for="deposito">Depósito:</label><br>
+        <input type="text" id="deposito" name="deposito" required><br>
+        
+        <label for="data_disponibilidade">Data de Disponibilidade:</label><br>
+        <input type="date" id="data_disponibilidade" name="data_disponibilidade" required><br>
+        
+        <label for="quantidade">Quantidade:</label><br>
+        <input type="number" id="quantidade" name="quantidade" required><br>
+        
+        <button type="submit">Atualizar Registro</button>
+    </form>
+</body>
+</html>
